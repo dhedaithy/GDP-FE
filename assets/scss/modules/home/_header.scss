@@ -1,0 +1,22 @@
+
+.header-bottom {
+    background-color: rgba(43, 94, 122, 1);
+    color: white;
+
+}
+
+.navbar-brand {  
+    color: rgba(43, 94, 122, 1);
+}
+
+.btn {
+    color: rgba(43, 94, 122, 1);
+}
+
+.topNav {
+    flex-direction: row;
+    .nav-item { 
+      padding: 0.5em;
+    }
+}
+

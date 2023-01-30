@@ -1,0 +1,15 @@
+$primary_1: rgba(220, 243, 255, 1);
+$primary_2: rgba(24, 58, 74, 1);
+$primary_3: rgba(221, 84, 113, 1);
+$bordersRadius: 1.5em;
+
+@mixin flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+@mixin flex-column {
+    display: flex;
+    flex-direction: column;
+}
+

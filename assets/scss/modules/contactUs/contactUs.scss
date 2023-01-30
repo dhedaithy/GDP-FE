@@ -1,0 +1,96 @@
+@import "Variables";
+
+
+@mixin rtl($property, $ltr-value, $rtl-value) {
+    #{$property}: $ltr-value;
+  
+    [dir=rtl] & {
+      #{$property}: $rtl-value;
+    }
+  }
+
+    body{
+        background-color: $primary_1; 
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    .container {
+        position: absolute;
+        @include flex-row;
+        flex-wrap: wrap;
+        @include rtl(background,linear-gradient(to right, white 0%, white 75.5%,$primary_2 24.5%,$primary_2 100%),
+              linear-gradient(to left, white 0%, white 75.5%,$primary_2 24.5%,$primary_2 100%));
+        border-radius: $bordersRadius;
+        margin-top: 3em;
+        margin-left: 10em; 
+        margin-right: 1em;
+    }
+
+    .form-div
+    { 
+        padding: 3em;
+        padding-left: 5em;
+
+        h1{
+            span{
+                color: $primary_3;
+            }
+        }
+    }
+
+    .send-btn{
+        background-color: $primary_3;
+        border: hidden;
+        color: white;
+        cursor: pointer;
+        padding: 0.5em;
+        border-radius: $bordersRadius;
+    }
+
+    .img-div{
+        margin-top: 5em;
+        padding-bottom: 1em;
+        padding-right: 4em;
+    }
+
+    .contact-us-form{ 
+        @include flex-column; 
+        flex-wrap: wrap;
+        padding-right: 1em;
+        input { 
+            margin-bottom: 1em;
+            text-align: left;
+            padding: 0.5em;
+        }
+        select {
+            padding: 0.5em;
+        }
+    }
+
+    .icons-div {
+        @include flex-row;
+        justify-content: space-between;
+        padding-top: 1.5em;
+        padding-bottom: 0em;
+        
+    }
+
+    .contactNumbers {
+        font-size: small;
+        color: $primary_3;
+        margin-top: 0em;
+        padding-left: 2em;
+    }
+
+    .contactLabels {
+        font-size: small;
+        padding-bottom: 0em;
+        margin-bottom: 0em;
+    }
+
+    .lang-btn {
+        @extend .send-btn;
+        @include rtl(float, right, left);
+        padding: 1em;
+        }
+    

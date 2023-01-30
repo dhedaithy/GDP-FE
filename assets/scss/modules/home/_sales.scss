@@ -1,0 +1,45 @@
+
+.sales-section {
+    background: linear-gradient(96.59deg, #F7F7F7 0.54%, rgba(247, 247, 247, 0) 100%);
+}
+
+
+
+.card-title {
+    font-weight: bold;
+}
+
+.firstColor {
+    color: black;
+}
+
+.secondColor {
+    color: blue;
+}
+
+.thirdColor {
+    color: pink;
+}
+
+.fourthColor {
+    color: orange;
+}
+
+.list-group-item {
+    padding-left: 0.5em;
+}
+
+.card-body{
+    display: flex;
+    justify-content: space-between;
+}
+
+.phonesPrices {
+    font-weight: bold;
+}
+
+.addToCartBtn {
+    background-color: rgba(108, 167, 182, 1);
+    color: white;
+    border: hidden;
+}

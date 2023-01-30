@@ -1,0 +1,14 @@
+
+.hero{
+   background: linear-gradient(96.59deg, #F7F7F7 0.54%, rgba(247, 247, 247, 0) 100%);
+    &-firstLine {
+        color: rgba(194, 206, 219, 1);
+    }
+}
+
+.hero-bottomBar {
+    background: linear-gradient(270.57deg, #2B5E7A 0%, #6CA7B6 100%);
+    color: white;
+
+}
+

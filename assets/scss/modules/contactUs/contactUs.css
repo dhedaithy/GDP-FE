@@ -1,0 +1,86 @@
+body {
+  background-color: rgb(220, 243, 255);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.container {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background: linear-gradient(to right, white 0%, white 75.5%, rgb(24, 58, 74) 24.5%, rgb(24, 58, 74) 100%);
+  border-radius: 1.5em;
+  margin-top: 3em;
+  margin-left: 10em;
+  margin-right: 1em;
+}
+[dir=rtl] .container {
+  background: linear-gradient(to left, white 0%, white 75.5%, rgb(24, 58, 74) 24.5%, rgb(24, 58, 74) 100%);
+}
+
+.form-div {
+  padding: 3em;
+  padding-left: 5em;
+}
+.form-div h1 span {
+  color: rgb(221, 84, 113);
+}
+
+.send-btn, .lang-btn {
+  background-color: rgb(221, 84, 113);
+  border: hidden;
+  color: white;
+  cursor: pointer;
+  padding: 0.5em;
+  border-radius: 1.5em;
+}
+
+.img-div {
+  margin-top: 5em;
+  padding-bottom: 1em;
+  padding-right: 4em;
+}
+
+.contact-us-form {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding-right: 1em;
+}
+.contact-us-form input {
+  margin-bottom: 1em;
+  text-align: left;
+  padding: 0.5em;
+}
+.contact-us-form select {
+  padding: 0.5em;
+}
+
+.icons-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 1.5em;
+  padding-bottom: 0em;
+}
+
+.contactNumbers {
+  font-size: small;
+  color: rgb(221, 84, 113);
+  margin-top: 0em;
+  padding-left: 2em;
+}
+
+.contactLabels {
+  font-size: small;
+  padding-bottom: 0em;
+  margin-bottom: 0em;
+}
+
+.lang-btn {
+  float: right;
+  padding: 1em;
+}
+[dir=rtl] .lang-btn {
+  float: left;
+}/*# sourceMappingURL=Style.css.map */
