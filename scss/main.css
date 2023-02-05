@@ -1,4 +1,9 @@
 @charset "UTF-8";
+body {
+  font-family: "Calibre";
+  font-style: normal;
+}
+
 /*!
  * Bootstrap  v5.2.3 (https://getbootstrap.com/)
  * Copyright 2011-2022 The Bootstrap Authors
@@ -10935,7 +10940,18 @@ textarea.form-control-lg {
 }
 .header-bottom {
   background-color: rgb(43, 94, 122);
+  box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.25);
   color: white;
+}
+.header-bottom span {
+  font-weight: bold;
+}
+
+.middleNavBar {
+  justify-items: center;
+}
+.middleNavBar ul {
+  padding-left: 25%;
 }
 
 .navbar-brand {
@@ -10959,18 +10975,72 @@ textarea.form-control-lg {
 .hero-firstLine {
   color: rgb(194, 206, 219);
 }
-
+.hero-buttonLabel {
+  font-weight: bold;
+}
 .hero-bottomBar {
   background: linear-gradient(270.57deg, #2B5E7A 0%, #6CA7B6 100%);
   color: white;
+}
+.hero-bottomBar span {
+  font-weight: bold;
 }
 
 .sales-section {
   background: linear-gradient(96.59deg, #F7F7F7 0.54%, rgba(247, 247, 247, 0) 100%);
 }
 
+.card {
+  box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.25);
+}
 .card-title {
   font-weight: bold;
+  font-size: 13px;
+}
+.card-body {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5em;
+}
+
+.phoneLabelOEM {
+  border: hidden;
+  background: linear-gradient(92.96deg, #2B5E7A 0.31%, #508FC9 97.32%);
+  color: white;
+  width: 40%;
+  border-bottom-right-radius: 0.5em;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.phoneLabelHC {
+  background: linear-gradient(92.96deg, #61AC2F 0.31%, #78BA4D 97.32%);
+  color: white;
+  width: 53%;
+  border-bottom-right-radius: 0.5em;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.phoneLabelRD {
+  color: white;
+  width: 60%;
+  border-bottom-right-radius: 0.5em;
+  background: linear-gradient(92.96deg, #63539E 0.31%, #8F7ECD 97.32%);
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.phoneDisc {
+  margin-bottom: 0.5em;
+}
+
+.phonesColorsButton {
+  border: hidden;
+  padding: 0;
+  width: 12px;
+  border-radius: 50%;
+  background-color: white;
 }
 
 .firstColor {
@@ -10991,11 +11061,7 @@ textarea.form-control-lg {
 
 .list-group-item {
   padding-left: 0.5em;
-}
-
-.card-body {
-  display: flex;
-  justify-content: space-between;
+  font-size: 11px;
 }
 
 .phonesPrices {
@@ -11006,9 +11072,5 @@ textarea.form-control-lg {
   background-color: rgb(108, 167, 182);
   color: white;
   border: hidden;
-}
-
-body {
-  font-family: "Calibre";
-  font-style: normal;
+  font-size: 12px;
 }/*# sourceMappingURL=main.css.map */

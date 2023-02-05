@@ -13,8 +13,8 @@
 <body>
     <header>
         <!-- top header -->
-        <nav class="navbar d-none d-md-block">
-            <div class="container-fluid">
+        <nav class="navbar d-none d-md-block p-0">
+            <div class="container-fluid border-bottom">
             <ul class="navbar-nav topNav">
                 <li class="nav-item border">
                     <a class="nav-link" href="#">Qualities</a>
@@ -51,20 +51,19 @@
                 </li>
             </ul>
         </div>
-        <hr>
         </nav>
         
 
         <!-- middle header -->
 
-        <nav class="navbar navbar-expand-lg bg-body-tertiary p-lg-5">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary p-lg-4">
             <div class="container-fluid"> 
                 <button class="navbar-toggler menuButton" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
                     aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <a class="navbar-brand" href="#"><h1>foneparts</h1></a>
-                <div class="collapse navbar-collapse" id="navbarText">
+                <div class="collapse navbar-collapse middleNavBar" id="navbarText">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="#">Webshop</a>
@@ -89,7 +88,7 @@
             <!-- bottom header -->
         <div class="row header-bottom border">
             <div class="col g-3 text-center">
-                <p>All orders placed before 19:00 will be delivered tomorrow.<strong> Free Delivery.</strong></p>
+                <p>All orders placed before 19:00 will be delivered tomorrow.<span> Free Delivery.</span></p>
             </div>
         </div>
 
@@ -103,8 +102,8 @@
                     <h1>Increasing your customer satisfaction with quality parts.</h1>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Varius leo neque erat suspendisse ipsum
                         pellentesque quam arcu, purus. Feugiat pellentesque fames sed tellus eget purus posuere.</p>
-                    <button class="btn btn-outline-secondary">Learn about <strong>benefits for working with
-                            us</strong></button>
+                    <button class="btn btn-outline-secondary">Learn about <span class="hero-buttonLabel">benefits for working with
+                            us</span></button>
                 </div>
             </div>
 
@@ -113,7 +112,7 @@
 
         <div class="row hero-bottomBar">
             <div class="col g-4 pb-2 text-center">
-                <h3> Driven by <strong>Excellence.</strong></h3>
+                <h3> Driven by <span>Excellence.</span></h3>
             </div>
 
 
@@ -135,22 +134,28 @@
                         </span></p>
                 </div>
 
-                <div class="row p-sm-15 p-xs-2">
+                <div class="row p-sm-5 p-xs-2">
                     <div class="col-sm-3 col-xs-12 p-2">
                         <div class="card"> 
+                            <label class="phoneLabelOEM">&nbsp &nbsp OEM</label>
                             <img src="assets/images/p20lite.jpg" class="card-img-top" alt="huwaei">
                             <ul class="list-group list-group-flush">
                                 <li class="list-group-item">
                                     <span class="card-title">Huawei P20 Lite</span>
-                                <p>Display Assembly Complete with Housing and Battery</p>
+                                <p class="phoneDisc">Display Assembly Complete with Housing and Battery</p>
                                 <span class="phonesPrices">$59</span> 
                                 <svg width="25" height="1" viewBox="0 0 41 1" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <line x1="0.988403" y1="0.5" x2="40.9769" y2="0.5" stroke="#E2E2E2"/>
                                     </svg>                                    
-                                   <svg class="firstColor" xmlns="http://www.w3.org/2000/svg" width="12" viewBox="0 0 512 512" fill="currentColor"><path d="M256 512c141.4 0 256-114.6 256-256S397.4 0 256 0S0 114.6 0 256S114.6 512 256 512z"/></svg>
-                                   <svg class="secondColor" xmlns="http://www.w3.org/2000/svg" width="12" viewBox="0 0 512 512" fill="currentColor"><path d="M256 512c141.4 0 256-114.6 256-256S397.4 0 256 0S0 114.6 0 256S114.6 512 256 512z"/></svg>
-                                   <svg class="thirdColor" xmlns="http://www.w3.org/2000/svg" width="12" viewBox="0 0 512 512" fill="currentColor"><path d="M256 512c141.4 0 256-114.6 256-256S397.4 0 256 0S0 114.6 0 256S114.6 512 256 512z"/></svg>
-                                   <svg class="fourthColor" xmlns="http://www.w3.org/2000/svg" width="12" viewBox="0 0 512 512" fill="currentColor"><path d="M256 512c141.4 0 256-114.6 256-256S397.4 0 256 0S0 114.6 0 256S114.6 512 256 512z"/></svg>
+                                   <button class="phonesColorsButton"><svg class="firstColor" xmlns="http://www.w3.org/2000/svg" width="12" viewBox="0 0 512 512" fill="currentColor"><path d="M256 512c141.4 0 256-114.6 256-256S397.4 0 256 0S0 114.6 0 256S114.6 512 256 512z"/></svg>
+                                   </button>
+                                   <button class="phonesColorsButton"> <svg class="secondColor" xmlns="http://www.w3.org/2000/svg" width="12" viewBox="0 0 512 512" fill="currentColor"><path d="M256 512c141.4 0 256-114.6 256-256S397.4 0 256 0S0 114.6 0 256S114.6 512 256 512z"/></svg>
+                                   </button>
+                                   <button class="phonesColorsButton"><svg class="thirdColor" xmlns="http://www.w3.org/2000/svg" width="12" viewBox="0 0 512 512" fill="currentColor"><path d="M256 512c141.4 0 256-114.6 256-256S397.4 0 256 0S0 114.6 0 256S114.6 512 256 512z"/></svg>
+                                   </button>
+                                   <button class="phonesColorsButton"><svg class="fourthColor" xmlns="http://www.w3.org/2000/svg" width="12" viewBox="0 0 512 512" fill="currentColor"><path d="M256 512c141.4 0 256-114.6 256-256S397.4 0 256 0S0 114.6 0 256S114.6 512 256 512z"/></svg>
+                                   </button>
+                                   
                                    <svg width="25" height="1" viewBox="0 0 41 1" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <line x1="0.988403" y1="0.5" x2="40.9769" y2="0.5" stroke="#E2E2E2"/>
                                     </svg>
@@ -193,19 +198,24 @@
 
                     <div class="col-sm-3 col-xs-12 p-2">
                         <div class="card">
+                            <label class="phoneLabelHC">&nbsp HIGH COPY</label>
                             <img src="assets/images/p20lite.jpg" class="card-img-top" alt="huwaei">
                             <ul class="list-group list-group-flush">
                                 <li class="list-group-item">
                                     <span class="card-title">Huawei P20 Lite</span>
-                                <p>Display Assembly Complete with Housing and Battery</p>
+                                <p class="phoneDisc">Display Assembly Complete with Housing and Battery</p>
                                 <span class="phonesPrices">$59</span> 
                                 <svg width="25" height="1" viewBox="0 0 41 1" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <line x1="0.988403" y1="0.5" x2="40.9769" y2="0.5" stroke="#E2E2E2"/>
                                     </svg>                                    
-                                   <svg class="firstColor" xmlns="http://www.w3.org/2000/svg" width="12" viewBox="0 0 512 512" fill="currentColor"><path d="M256 512c141.4 0 256-114.6 256-256S397.4 0 256 0S0 114.6 0 256S114.6 512 256 512z"/></svg>
-                                   <svg class="secondColor" xmlns="http://www.w3.org/2000/svg" width="12" viewBox="0 0 512 512" fill="currentColor"><path d="M256 512c141.4 0 256-114.6 256-256S397.4 0 256 0S0 114.6 0 256S114.6 512 256 512z"/></svg>
-                                   <svg class="thirdColor" xmlns="http://www.w3.org/2000/svg" width="12" viewBox="0 0 512 512" fill="currentColor"><path d="M256 512c141.4 0 256-114.6 256-256S397.4 0 256 0S0 114.6 0 256S114.6 512 256 512z"/></svg>
-                                   <svg class="fourthColor" xmlns="http://www.w3.org/2000/svg" width="12" viewBox="0 0 512 512" fill="currentColor"><path d="M256 512c141.4 0 256-114.6 256-256S397.4 0 256 0S0 114.6 0 256S114.6 512 256 512z"/></svg>
+                                    <button class="phonesColorsButton"><svg class="firstColor" xmlns="http://www.w3.org/2000/svg" width="12" viewBox="0 0 512 512" fill="currentColor"><path d="M256 512c141.4 0 256-114.6 256-256S397.4 0 256 0S0 114.6 0 256S114.6 512 256 512z"/></svg>
+                                    </button>
+                                    <button class="phonesColorsButton"> <svg class="secondColor" xmlns="http://www.w3.org/2000/svg" width="12" viewBox="0 0 512 512" fill="currentColor"><path d="M256 512c141.4 0 256-114.6 256-256S397.4 0 256 0S0 114.6 0 256S114.6 512 256 512z"/></svg>
+                                    </button>
+                                    <button class="phonesColorsButton"><svg class="thirdColor" xmlns="http://www.w3.org/2000/svg" width="12" viewBox="0 0 512 512" fill="currentColor"><path d="M256 512c141.4 0 256-114.6 256-256S397.4 0 256 0S0 114.6 0 256S114.6 512 256 512z"/></svg>
+                                    </button>
+                                    <button class="phonesColorsButton"><svg class="fourthColor" xmlns="http://www.w3.org/2000/svg" width="12" viewBox="0 0 512 512" fill="currentColor"><path d="M256 512c141.4 0 256-114.6 256-256S397.4 0 256 0S0 114.6 0 256S114.6 512 256 512z"/></svg>
+                                    </button>
                                    <svg width="25" height="1" viewBox="0 0 41 1" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <line x1="0.988403" y1="0.5" x2="40.9769" y2="0.5" stroke="#E2E2E2"/>
                                     </svg>
@@ -248,19 +258,24 @@
 
                     <div class="col-sm-3 col-xs-12 p-2">
                         <div class="card">
+                            <label class="phoneLabelOEM">&nbsp &nbsp OEM</label>
                             <img src="assets/images/p20lite.jpg" class="card-img-top" alt="huwaei">
                             <ul class="list-group list-group-flush">
                                 <li class="list-group-item">
                                     <span class="card-title">Huawei P20 Lite</span> 
-                                <p>Display Assembly Complete with Housing and Battery</p>
+                                <p class="phoneDisc">Display Assembly Complete with Housing and Battery</p>
                                 <span class="phonesPrices">$59</span> 
                                 <svg width="25" height="1" viewBox="0 0 41 1" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <line x1="0.988403" y1="0.5" x2="40.9769" y2="0.5" stroke="#E2E2E2"/>
                                     </svg>                                    
-                                   <svg class="firstColor" xmlns="http://www.w3.org/2000/svg" width="12" viewBox="0 0 512 512" fill="currentColor"><path d="M256 512c141.4 0 256-114.6 256-256S397.4 0 256 0S0 114.6 0 256S114.6 512 256 512z"/></svg>
-                                   <svg class="secondColor" xmlns="http://www.w3.org/2000/svg" width="12" viewBox="0 0 512 512" fill="currentColor"><path d="M256 512c141.4 0 256-114.6 256-256S397.4 0 256 0S0 114.6 0 256S114.6 512 256 512z"/></svg>
-                                   <svg class="thirdColor" xmlns="http://www.w3.org/2000/svg" width="12" viewBox="0 0 512 512" fill="currentColor"><path d="M256 512c141.4 0 256-114.6 256-256S397.4 0 256 0S0 114.6 0 256S114.6 512 256 512z"/></svg>
-                                   <svg class="fourthColor" xmlns="http://www.w3.org/2000/svg" width="12" viewBox="0 0 512 512" fill="currentColor"><path d="M256 512c141.4 0 256-114.6 256-256S397.4 0 256 0S0 114.6 0 256S114.6 512 256 512z"/></svg>
+                                    <button class="phonesColorsButton"><svg class="firstColor" xmlns="http://www.w3.org/2000/svg" width="12" viewBox="0 0 512 512" fill="currentColor"><path d="M256 512c141.4 0 256-114.6 256-256S397.4 0 256 0S0 114.6 0 256S114.6 512 256 512z"/></svg>
+                                    </button>
+                                    <button class="phonesColorsButton"> <svg class="secondColor" xmlns="http://www.w3.org/2000/svg" width="12" viewBox="0 0 512 512" fill="currentColor"><path d="M256 512c141.4 0 256-114.6 256-256S397.4 0 256 0S0 114.6 0 256S114.6 512 256 512z"/></svg>
+                                    </button>
+                                    <button class="phonesColorsButton"><svg class="thirdColor" xmlns="http://www.w3.org/2000/svg" width="12" viewBox="0 0 512 512" fill="currentColor"><path d="M256 512c141.4 0 256-114.6 256-256S397.4 0 256 0S0 114.6 0 256S114.6 512 256 512z"/></svg>
+                                    </button>
+                                    <button class="phonesColorsButton"><svg class="fourthColor" xmlns="http://www.w3.org/2000/svg" width="12" viewBox="0 0 512 512" fill="currentColor"><path d="M256 512c141.4 0 256-114.6 256-256S397.4 0 256 0S0 114.6 0 256S114.6 512 256 512z"/></svg>
+                                    </button>
                                    <svg width="25" height="1" viewBox="0 0 41 1" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <line x1="0.988403" y1="0.5" x2="40.9769" y2="0.5" stroke="#E2E2E2"/>
                                     </svg>
@@ -303,19 +318,24 @@
 
                     <div class="col-sm-3 col-xs-12 p-2">
                         <div class="card">
+                            <label class="phoneLabelRD">&nbsp REFURBISHED</label>
                             <img src="assets/images/p20lite.jpg" class="card-img-top" alt="huwaei">
                             <ul class="list-group list-group-flush">
                                 <li class="list-group-item">
                                     <span class="card-title">Huawei P20 Lite</span>
-                                <p>Display Assembly Complete with Housing and Battery</p>
+                                <p class="phoneDisc">Display Assembly Complete with Housing and Battery</p>
                                 <span class="phonesPrices">$59</span> 
                                 <svg width="25" height="1" viewBox="0 0 41 1" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <line x1="0.988403" y1="0.5" x2="40.9769" y2="0.5" stroke="#E2E2E2"/>
                                     </svg>                                    
-                                   <svg class="firstColor" xmlns="http://www.w3.org/2000/svg" width="12" viewBox="0 0 512 512" fill="currentColor"><path d="M256 512c141.4 0 256-114.6 256-256S397.4 0 256 0S0 114.6 0 256S114.6 512 256 512z"/></svg>
-                                   <svg class="secondColor" xmlns="http://www.w3.org/2000/svg" width="12" viewBox="0 0 512 512" fill="currentColor"><path d="M256 512c141.4 0 256-114.6 256-256S397.4 0 256 0S0 114.6 0 256S114.6 512 256 512z"/></svg>
-                                   <svg class="thirdColor" xmlns="http://www.w3.org/2000/svg" width="12" viewBox="0 0 512 512" fill="currentColor"><path d="M256 512c141.4 0 256-114.6 256-256S397.4 0 256 0S0 114.6 0 256S114.6 512 256 512z"/></svg>
-                                   <svg class="fourthColor" xmlns="http://www.w3.org/2000/svg" width="12" viewBox="0 0 512 512" fill="currentColor"><path d="M256 512c141.4 0 256-114.6 256-256S397.4 0 256 0S0 114.6 0 256S114.6 512 256 512z"/></svg>
+                                    <button class="phonesColorsButton"><svg class="firstColor" xmlns="http://www.w3.org/2000/svg" width="12" viewBox="0 0 512 512" fill="currentColor"><path d="M256 512c141.4 0 256-114.6 256-256S397.4 0 256 0S0 114.6 0 256S114.6 512 256 512z"/></svg>
+                                    </button>
+                                    <button class="phonesColorsButton"> <svg class="secondColor" xmlns="http://www.w3.org/2000/svg" width="12" viewBox="0 0 512 512" fill="currentColor"><path d="M256 512c141.4 0 256-114.6 256-256S397.4 0 256 0S0 114.6 0 256S114.6 512 256 512z"/></svg>
+                                    </button>
+                                    <button class="phonesColorsButton"><svg class="thirdColor" xmlns="http://www.w3.org/2000/svg" width="12" viewBox="0 0 512 512" fill="currentColor"><path d="M256 512c141.4 0 256-114.6 256-256S397.4 0 256 0S0 114.6 0 256S114.6 512 256 512z"/></svg>
+                                    </button>
+                                    <button class="phonesColorsButton"><svg class="fourthColor" xmlns="http://www.w3.org/2000/svg" width="12" viewBox="0 0 512 512" fill="currentColor"><path d="M256 512c141.4 0 256-114.6 256-256S397.4 0 256 0S0 114.6 0 256S114.6 512 256 512z"/></svg>
+                                    </button>
                                    <svg width="25" height="1" viewBox="0 0 41 1" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <line x1="0.988403" y1="0.5" x2="40.9769" y2="0.5" stroke="#E2E2E2"/>
                                     </svg>

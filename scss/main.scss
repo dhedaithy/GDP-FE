@@ -1,11 +1,12 @@
-
-@import "../../node_modules/bootstrap/scss/bootstrap.scss"; 
-@import "modules/home/header";
-@import "modules/home/hero";
-@import "modules/home/sales";
-
 body {
     font-family: 'Calibre'; 
     font-style: normal;
 }
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss"; 
+@import "modules/home/header";
+@import "modules/home/hero";
+@import "modules/home/sales";
+
+
 
